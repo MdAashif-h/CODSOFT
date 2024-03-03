@@ -21,12 +21,12 @@ public class Randomguess{
                 }
                 else{
                     System.out.println("Your guess is too low ,Try again");
-                }
-                if(a>max){
+                }    
+            }
+             if(a>max){
                     System.out.println("Sorry, You have reached the maximum number of attempts");
                     System.out.println("the Secret number was:"+Secretno);
-                }        
-            }
+                }    
             System.out.println("Do you want to play again:? (Y/N)");
             s.nextLine();
             char again=s.nextLine().charAt(0);
